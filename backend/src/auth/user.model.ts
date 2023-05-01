@@ -7,5 +7,5 @@ export class UserModel extends TimeStamps {
   email: string;
 
   @prop()
-  passwordHash: string;
+  passwordHash: number;
 }
